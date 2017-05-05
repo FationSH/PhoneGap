@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+        <!--meta http-equiv="Content-Security-Policy" content="connect-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *"-->
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">		
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+        <title>Car</title>
+	</head>
+
+	<body>
+	
+	    <h1>RENT A CAR</h1>
+		
+		Name: <input type="text" width="100%" id="name">
+		<p>DATE:</p>
+		
+		<table style="width:95%">
+			<tr>
+				<th style="width: 90px">From:</th>
+				<td><input type="date" style="width: 100%" id="from"></td>
+			</tr>
+			<tr>
+				<th style="width: 90px">To:</th>
+				<td><input type="date" style="width: 100%" id="to"></td>
+			</tr>
+		</table>
+		
+		<button class="button" onclick="rent()" id="mes" style="vertical-align:middle"><span> Rent </span>
+		
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+		<!--script type="text/javascript" language="javascript" src="ajax.js"></script-->
+
+	
+	</body>
+
+</html>
