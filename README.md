@@ -1,6 +1,9 @@
 # PhoneGap
 
-3 PhoneGap mini apps
+Contributors: Shehaj Fation
+
+PhoneGap mini apps
 Add platforms (android)
 
-Car Rent
+Car Rent - Flags - Pill
+Use xampp and MySQL (also php files included)
